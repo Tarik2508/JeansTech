@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Code Review Assistant
-        uses: tarik2508/GPT-Reviewer@v1
+        uses: Tarik2508/GPT-Reviewer@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPEN_AI_SECRET_FOR_AI_CODE_REVIEW: ${{ secrets.OPEN_AI_SECRET_FOR_AI_CODE_REVIEW }}
